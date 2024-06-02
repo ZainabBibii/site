@@ -11,7 +11,7 @@ function setItem(itemText) {
     if (tg.MainButton.isVisible) {
         tg.MainButton.hide();
     } else {
-        tg.MainButton.setText(`Вы выбрали товар ${itemText}!`);
+        tg.MainButton.setText(`View Order ${itemText}!`);
         item = itemText;
         tg.MainButton.show();
     }
